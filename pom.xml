@@ -54,7 +54,7 @@
 
     <properties>
         <!-- JAVA VERSION -->
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <jdk.version>${java.version}</jdk.version>
 
         <java.source.version>${java.version}</java.source.version>
@@ -65,8 +65,8 @@
         <!-- FILE ENCODING -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <groovy.version>3.0.19</groovy.version>
-        <spock.version>2.3-groovy-3.0</spock.version>
+        <groovy.version>4.0.22</groovy.version>
+        <spock.version>2.4-M4-groovy-4.0</spock.version>
         <gmavenplus.version>3.0.2</gmavenplus.version>
 
         <!-- PLUGIN PROPERTY OVERRIDES -->
@@ -77,19 +77,19 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.codehaus.groovy</groupId>
+                <groupId>org.apache.groovy</groupId>
                 <artifactId>groovy</artifactId>
                 <version>${groovy.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>org.codehaus.groovy</groupId>
+                <groupId>org.apache.groovy</groupId>
                 <artifactId>groovy-ant</artifactId>
                 <version>${groovy.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>org.codehaus.groovy</groupId>
+                <groupId>org.apache.groovy</groupId>
                 <artifactId>groovy-json</artifactId>
                 <version>${groovy.version}</version>
                 <scope>test</scope>
