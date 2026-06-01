@@ -54,7 +54,7 @@
 
     <properties>
         <!-- JAVA VERSION -->
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <jdk.version>${java.version}</jdk.version>
 
         <java.source.version>${java.version}</java.source.version>
